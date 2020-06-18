@@ -1,0 +1,103 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cartela {
+  margin: 0 auto;
+  width: 640px;
+  height: 480px;
+  position: relative;
+}
+
+.mensagem {
+  display: none;
+  background-color: green;
+  color: #fff;
+  padding: 10px;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.selected {
+  color: red;
+  font-size: 100px;
+}
+
+.selected::after {
+  content: 'X';
+}
+
+.box {
+  position: absolute;
+  width: 150px;
+  height: 117px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.box1 {
+  top: 107px;
+  left: 18px;  
+}
+
+.box2 {
+  top: 107px;
+  left: 169px;  
+}
+
+.box3 {
+  top: 107px;
+  left: 320px;  
+}
+
+.box4 {
+  top: 107px;
+  left: 472px;  
+}
+
+.box5 {
+  top: 226px;
+  left: 18px;  
+}
+
+.box6 {
+  top: 226px;
+  left: 169px;  
+}
+
+.box7 {
+  top: 226px;
+  left: 320px;  
+}
+
+.box8 {
+  top: 226px;
+  left: 472px;  
+}
+
+.box9 {
+  top: 344px;
+  left: 18px;  
+}
+
+.box10 {
+  top: 344px;
+  left: 169px;  
+}
+
+.box11 {
+  top: 344px;
+  left: 320px;  
+}
+
+.box12 {
+  top: 344px;
+  left: 472px;  
+}
